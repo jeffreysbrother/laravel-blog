@@ -1,24 +1,18 @@
 @include('partials._head')
+
+  <body>
+
 @include('partials._nav')
 
-    <div class="container">
+  <div class="container">
 
-      @yield('content')
+    @yield('content')
 
-      <!-- footer begin -->
-      <hr>
-      <p class="text-center">
-        Copyright M. James Cool - All Rights Reserved
-      </p>
-      <!-- footer end -->
+    @include('partials._footer')
 
-    </div> <!-- end of container -->
+  </div> <!-- end of container -->
 
+  @include('partials._javascript')
 
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
