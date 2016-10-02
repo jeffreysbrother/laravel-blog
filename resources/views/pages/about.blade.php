@@ -38,8 +38,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">About Me</div>
-                <p>Check it out! Some new nonsense!</p>
+                <div class="title">About {{ $data['fullname'] }}</div>
+                <p>Email me at {{ $data['email'] }}</p>
             </div>
         </div>
     </body>
