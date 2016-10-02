@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Welcome!</div>
+                <div class="title">Welcome Home!</div>
                 <p>this is the beginning</p>
             </div>
         </div>

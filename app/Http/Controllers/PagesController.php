@@ -11,15 +11,15 @@ class PagesController extends Controller
     # receive data from the model
     # process data from the model if needed
     # pass data to the correct view
-    return view('home');
+    return view('pages/home');
   }
 
   public function getAbout() {
-    return view('about');
+    return view('pages/about');
   }
 
   public function getContact() {
-      return view('contact');
+      return view('pages/contact');
   }
 
 }
