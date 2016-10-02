@@ -1,4 +1,7 @@
 @extends('main')
+
+@section('title', 'Contact me!')
+
 @section('content')
   <div class="row">
     <div class="col-md-12">
