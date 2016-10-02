@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  @include('partials._head')
+  <head>
+    @include('partials._head')
+  </head>
 
   <body>
-
     @include('partials._nav')
 
     <div class="container">
-
       @yield('content')
-
       @include('partials._footer')
-
-    </div> <!-- end of container -->
+    </div>
 
     @include('partials._javascript')
-
   </body>
 </html>
